@@ -9,3 +9,5 @@ words = ("You", "Love", "Yourself")
 
 for word in words:
   print(f"{word} has {len(word)} letters")
+
+# Enumerating directly over the list makes your code easier to write and more understandable
