@@ -1,3 +1,7 @@
+# Here’s the main takeaway of this chapter, for you, on a silver platter:
+# enumerate is your best friend if you need to traverse an iterator to deal with its data and also
+# need access to information about its index.
+
 # Without enumeration 
 words = ("You", "Love", "Yourself")
 
@@ -19,6 +23,3 @@ for i, word in enumerate(words, 1):
   print(f"Word #{i}: <{word}> has {len(word)} letters")
 
 # Enumerating directly over the list makes your code easier to write and more understandable
-# Here’s the main takeaway of this chapter, for you, on a silver platter:
-# enumerate is your best friend if you need to traverse an iterator to deal with its data and also
-# need access to information about its index.
