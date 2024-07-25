@@ -10,4 +10,10 @@ words = ("You", "Love", "Yourself")
 for word in words:
   print(f"{word} has {len(word)} letters")
 
+# With enumeration you can also esaily access the index and the element at the same time 
+words = ["You", "Love", "Yourself"]
+
+for i, word in enumerate(words):
+  print(f"Word #{i}: <{word}> has {len(word)} letters")
+
 # Enumerating directly over the list makes your code easier to write and more understandable
